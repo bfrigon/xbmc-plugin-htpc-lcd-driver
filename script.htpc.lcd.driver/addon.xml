@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.htpc.lcd.driver" name="HTPC LCD driver" version="0.1.015" provider-name="Benoit Frigon">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="login" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">HTPC LCD display driver</summary>
+  </extension>
+</addon>
